@@ -47,6 +47,7 @@
 .ph-lunge{background-image:url("img/hero-lunges.jpg")}
 .ph-finish{background-image:url("img/finish-maastricht.jpg")}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 8px)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -719,7 +720,7 @@ footer{border-top:1px solid var(--line);padding-block:40px}
     var b=document.getElementById('f-submit'),err=document.getElementById('f-err');
     b.disabled=true;err.hidden=true;
     fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
-      .then(function(r){if(!r.ok)throw 0;f.hidden=true;d.hidden=false})
+      .then(function(r){if(!r.ok)throw 0;f.hidden=true;d.hidden=false;d.scrollIntoView({behavior:'smooth',block:'center'})})
       .catch(function(){err.hidden=false;b.disabled=false});
   });
 })();
