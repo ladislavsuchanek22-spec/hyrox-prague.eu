@@ -340,8 +340,8 @@ T = {
 # ---------- WEBY STR2G (patička) a odkaz na závod
 "Weby STR2G": ("STR2G websites", "Strony STR2G", "STR2G-Websites"),
 "HYROX tréninky v Praze, Brně a Ostravě": ("HYROX classes in Prague, Brno and Ostrava", "Treningi HYROX w Pradze, Brnie i Ostrawie", "HYROX-Training in Prag, Brno und Ostrava"),
-"Závod Factory Games · 5. 12. 2026": ("Factory Games race · 5 Dec 2026", "Zawody Factory Games · 5.12.2026", "Wettkampf Factory Games · 5.12.2026"),
+"Závod · 5. 12. 2026": ("Race · 5 Dec 2026", "Zawody · 5.12.2026", "Wettkampf · 5.12.2026"),
 "Osobní trénink, výživa a masáže": ("Personal training, nutrition &amp; massage", "Trening personalny, dieta i masaże", "Personal Training, Ernährung &amp; Massage"),
 "Nejbližší závod:": ("Next race:", "Najbliższe zawody:", "Nächster Wettkampf:"),
-"Factory Games, 5. 12. 2026, Form Factory Praha": ("Factory Games, 5 Dec 2026, Form Factory Prague", "Factory Games, 5.12.2026, Form Factory Praga", "Factory Games, 5.12.2026, Form Factory Prag"),
+"Form Factory Games, 5. 12. 2026, Praha": ("Form Factory Games, 5 Dec 2026, Prague", "Form Factory Games, 5.12.2026, Praga", "Form Factory Games, 5.12.2026, Prag"),
 }
