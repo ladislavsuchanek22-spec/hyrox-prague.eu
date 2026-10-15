@@ -336,4 +336,12 @@ T = {
 "měsíc": ("month", "miesiąc", "Monat"),
 "Je HYROX trénink pro začátečníky?": ("Is HYROX training suitable for beginners?", "Czy trening HYROX jest dla początkujących?", "Ist HYROX-Training was für Einsteiger?"),
 "Jak dostanu tréninkový plán?": ("How do I get my training plan?", "Jak dostaję plan treningowy?", "Wie bekomme ich meinen Trainingsplan?"),
+
+# ---------- WEBY STR2G (patička) a odkaz na závod
+"Weby STR2G": ("STR2G websites", "Strony STR2G", "STR2G-Websites"),
+"HYROX tréninky v Praze, Brně a Ostravě": ("HYROX classes in Prague, Brno and Ostrava", "Treningi HYROX w Pradze, Brnie i Ostrawie", "HYROX-Training in Prag, Brno und Ostrava"),
+"Závod Factory Games · 5. 12. 2026": ("Factory Games race · 5 Dec 2026", "Zawody Factory Games · 5.12.2026", "Wettkampf Factory Games · 5.12.2026"),
+"Osobní trénink, výživa a masáže": ("Personal training, nutrition &amp; massage", "Trening personalny, dieta i masaże", "Personal Training, Ernährung &amp; Massage"),
+"Nejbližší závod:": ("Next race:", "Najbliższe zawody:", "Nächster Wettkampf:"),
+"Factory Games, 5. 12. 2026, Form Factory Praha": ("Factory Games, 5 Dec 2026, Form Factory Prague", "Factory Games, 5.12.2026, Form Factory Praga", "Factory Games, 5.12.2026, Form Factory Prag"),
 }

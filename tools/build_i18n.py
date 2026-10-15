@@ -22,6 +22,12 @@ LANGS = {  # kód: (index v T, og:locale)
     "pl": (1, "pl_PL"),
     "de": (2, "de_DE"),
 }
+# Odkazy na ostatní weby STR2G: česká URL ve zdroji -> URL podle jazyka
+XLINKS = {
+    "https://str2g.com/cs/": {"en": "https://str2g.com/", "pl": "https://str2g.com/pl/", "de": "https://str2g.com/de/"},
+    "https://hyroxtrainingclub.cz/": {"en": "https://hyroxtrainingclub.cz/en/", "pl": "https://hyroxtrainingclub.cz/pl/", "de": "https://hyroxtrainingclub.cz/de/"},
+    "https://formfactorygames.cz/": {"en": "https://formfactorygames.cz/en/", "pl": "https://formfactorygames.cz/pl/", "de": "https://formfactorygames.cz/de/"},
+}
 ATTRS = ("alt", "placeholder", "aria-label", "data-plan", "content", "title")
 CZ_ONLY = re.compile(r"[áčďéěíňřšťúůýžÁČĎÉĚÍŇŘŠŤÚŮÝŽ]")  # znaky češtiny, které PL/EN/DE nemají (kromě ó, ś...)
 # Texty, které se nepřekládají (jména, značky, čísla)
@@ -88,6 +94,9 @@ def localize_meta(html, code, locale):
     html = html.replace('"inLanguage": "cs"', '"inLanguage": "%s"' % code, 1)
     html = html.replace('"url": "%s"' % BASE, '"url": "%s"' % url)  # WebSite/Business url -> jazyková verze
     html = html.replace('<input type="hidden" name="lang" value="cs">', '<input type="hidden" name="lang" value="%s">' % code, 1)
+    # odkazy na ostatní weby STR2G -> stejná jazyková verze
+    for cs_url, by_lang in XLINKS.items():
+        html = html.replace('href="%s"' % cs_url, 'href="%s"' % by_lang[code])
     # přepínač jazyků: aktivní položka
     html = html.replace(' aria-current="page">CZ</a>', '>CZ</a>', 1)
     label = code.upper()
