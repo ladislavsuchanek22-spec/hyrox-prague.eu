@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "https://www.hyrox-prague.eu/*"
+  to = "https://hyrox-prague.eu/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
