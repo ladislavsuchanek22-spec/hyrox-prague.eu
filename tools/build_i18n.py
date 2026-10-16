@@ -129,6 +129,8 @@ def check(html, code):
 
 def main():
     src = (ROOT / "index.html").read_text(encoding="utf-8")
+    # bloky jen pro češtinu (odkazy na české podstránky a blog)
+    src = re.sub(r"<!--cz-only-->.*?<!--/cz-only-->", "", src, flags=re.S)
     failed = False
     for code, (i, locale) in LANGS.items():
         html = translate_html(src, i)

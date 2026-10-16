@@ -60,7 +60,7 @@ T = {
 "Zavřít menu": ("Close menu", "Zamknij menu", "Menü schließen"),
 
 # ---------- HERO
-"HYROX trenér · trénink v Praze i online": ("HYROX coach · training in Prague and online", "Trener HYROX · treningi w Pradze i online", "HYROX Coach · Training in Prag und online"),
+"HYROX trenér Praha · trénink v Praze i online": ("HYROX coach Prague · training in Prague and online", "Trener HYROX Praga · treningi w Pradze i online", "HYROX Coach Prag · Training in Prag und online"),
 "Postav motor.": ("Build the engine.", "Zbuduj silnik.", "Bau den Motor."),
 "Závod vyhraj hlavou.": ("Win the race with your head.", "Wygraj wyścig głową.", "Gewinn das Rennen im Kopf."),
 "HYROX trénink se strukturou. Běh, síla, stanice a tempo v jednom plánu. Pro první závod i pro honbu za osobákem.": (
