@@ -20,4 +20,3 @@ Každý push do větve `main` se automaticky nasadí na hyrox-prague.eu.
 - Obsah: `tools/pages.py`, generátor: `tools/build_pages.py` (styly bere z `index.html`).
 - Po změně spusť `python3 tools/build_pages.py`. Přegeneruje podstránky, blog a `sitemap.xml`.
 - Bloky `<!--cz-only-->…<!--/cz-only-->` v `index.html` se do EN/PL/DE nepřenáší.
-- `gillette/`: case study Gillette Clear Gel × HYROX Hamburg (dřív na netlify.app).

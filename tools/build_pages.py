@@ -305,9 +305,9 @@ xml = ['<?xml version="1.0" encoding="UTF-8"?>',
        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
 for _, p in langs:
     xml.append(f"  <url><loc>{BASE}{p}</loc><lastmod>{LASTMOD}</lastmod>{alt}\n  </url>")
-for u in urls + [f"{BASE}/gillette/"]:
+for u in urls:
     xml.append(f"  <url><loc>{u}</loc><lastmod>{LASTMOD}</lastmod></url>")
 xml.append("</urlset>\n")
 (ROOT / "sitemap.xml").write_text("\n".join(xml), encoding="utf-8")
-(ROOT / "sitemap.txt").write_text("\n".join([BASE + p for _, p in langs] + urls + [f"{BASE}/gillette/"]) + "\n", encoding="utf-8")
+(ROOT / "sitemap.txt").write_text("\n".join([BASE + p for _, p in langs] + urls) + "\n", encoding="utf-8")
 print("zapsáno sitemap.xml, sitemap.txt")

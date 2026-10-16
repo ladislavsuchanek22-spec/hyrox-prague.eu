@@ -1,3 +1,10 @@
+# Gillette zatím nepublikovat: stará adresa vrací 404
+[[redirects]]
+  from = "/gillette/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
 [[redirects]]
   from = "https://www.hyrox-prague.eu/*"
   to = "https://hyrox-prague.eu/:splat"
