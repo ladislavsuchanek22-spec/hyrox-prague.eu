@@ -307,24 +307,38 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
 .note{font-family:var(--mono);font-size:12px;color:var(--muted)}
 
 /* FOOTER */
-footer{border-top:1px solid var(--line);padding-block:40px}
-.foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:20px 40px}
-.partners{display:flex;flex-wrap:wrap;gap:8px 32px;align-items:center}
-.partners small{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-.partners a{font-family:var(--display);font-style:italic;font-weight:800;font-size:24px;text-transform:uppercase;text-decoration:none;color:var(--muted)}
-.partners a:hover{color:var(--fg)}
+footer{padding-block:clamp(48px,6vw,72px) 32px;background:var(--panel)}
+.fgrid{display:grid;grid-template-columns:minmax(240px,1.25fr);grid-auto-columns:minmax(0,1fr);grid-auto-flow:column;gap:32px clamp(24px,4vw,56px)}
+.fbrand{display:flex;flex-direction:column;gap:14px;min-width:0}
+.fbrand p{color:var(--muted);font-size:15px;line-height:1.5;max-width:30ch}
+.fbrand .logo span{display:inline}
+.fcontact{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:6px;font-family:var(--mono);font-size:13px}
+.fcontact a{text-decoration:none;color:var(--fg)}
+.fcontact a:hover{color:var(--accent)}
+.fcol{min-width:0}
+.fh{margin:0 0 16px;padding-bottom:10px;border-bottom:2px solid var(--accent);display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.fcol ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.fcol a{display:grid;gap:2px;text-decoration:none;color:var(--fg);font-size:15.5px;font-weight:500;line-height:1.3}
+.fcol a small{font-size:13px;font-weight:400;color:var(--muted)}
+.fcol a:hover{color:var(--accent)}
+@media (max-width:900px){.fgrid{grid-auto-flow:row;grid-template-columns:1fr 1fr}.fbrand,.fwide{grid-column:1/-1}.fwide{order:3}}
+
+
+
+
+
 .legal{margin-top:28px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:12px;color:var(--muted)}
 .legal a{text-decoration:none}
 .legal a:hover{color:var(--accent)}
 /* WEBY STR2G */
-.net{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
-.net-h{margin:0 0 14px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-.net ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 24px}
-.net a{display:grid;gap:3px;text-decoration:none;color:var(--fg)}
-.net b{font-family:var(--display);font-style:italic;font-weight:800;font-size:22px;line-height:1.05;text-transform:uppercase}
-.net span{font-size:14px;line-height:1.35;color:var(--muted)}
-.net i{font-family:var(--mono);font-style:normal;font-size:12px;color:var(--muted)}
-.net a:hover b{color:var(--accent)}
+
+
+
+
+
+
+
+
 </style>
 <script src="/js/tracking.js"></script>
 </head>
@@ -680,19 +694,36 @@ footer{border-top:1px solid var(--line);padding-block:40px}
 
 <footer>
   <div class="wrap">
-    <div class="foot">
-      <a class="logo" href="#top"><b>STR<i>2</i>G</b><span>Stronger together</span></a>
-      <div class="partners">
-        <small>Partneři</small>
-        <a href="http://www.formfactory.cz" target="_blank" rel="noopener">Form Factory</a>
-        <a href="https://www.amazfit.cz" target="_blank" rel="noopener">Amazfit</a>
-        <a href="https://www.shockz.cz" target="_blank" rel="noopener">Shokz</a>
-        <a href="https://www.insidefit.cz" target="_blank" rel="noopener">InsideFit</a>
+    <div class="fgrid">
+      <div class="fbrand">
+        <a class="logo" href="#top"><b>STR<i>2</i>G</b><span>Stronger together</span></a>
+        <p>HYROX trénink v Praze i online. Trénujeme, závodíme a vedeme kluby.</p>
+        <ul class="fcontact">
+          <li><a href="mailto:info@ladislavsuchanek.cz">info@ladislavsuchanek.cz</a></li>
+          <li><a href="tel:+420722077070">+420 722 077 070</a></li>
+          <li><a href="https://www.instagram.com/hyroxprague/" target="_blank" rel="noopener">@hyroxprague</a></li>
+        </ul>
       </div>
+      <!--cz-only--><nav class="fcol" aria-label="HYROX trénink"><p class="fh">HYROX trénink</p><ul>
+        <li><a href="/hyrox-trener-praha/">HYROX trenér Praha</a></li>
+        <li><a href="/online-hyrox-trenink/">Online HYROX trenér</a></li>
+        <li><a href="/hyrox-programy/">HYROX programy</a></li>
+        <li><a href="/blog/">HYROX blog</a></li>
+      </ul></nav><!--/cz-only-->
+      <nav class="fcol fwide" aria-label="Weby STR2G"><p class="fh">Weby STR2G</p><ul>
+        <li><a href="https://str2g.com/cs/" target="_blank" rel="noopener">STR2G Online<small>Online HYROX programy</small></a></li>
+        <li><a href="https://hyroxtrainingclub.cz/" target="_blank" rel="noopener">HYROX Training Club<small>HYROX tréninky v Praze, Brně a Ostravě</small></a></li>
+        <li><a href="https://formfactorygames.cz/" target="_blank" rel="noopener">Form Factory Games<small>Závod · 5. 12. 2026</small></a></li>
+        <li><a href="https://www.ladislavsuchanek.cz/" target="_blank" rel="noopener">Ladislav Suchánek<small>Osobní trénink, výživa a masáže</small></a></li>
+      </ul></nav>
+      <nav class="fcol" aria-label="Partneři"><p class="fh">Partneři</p><ul>
+        <li><a href="https://www.formfactory.cz" target="_blank" rel="noopener">Form Factory</a></li>
+        <li><a href="https://www.amazfit.cz" target="_blank" rel="noopener">Amazfit</a></li>
+        <li><a href="https://www.shockz.cz" target="_blank" rel="noopener">Shokz</a></li>
+        <li><a href="https://www.insidefit.cz" target="_blank" rel="noopener">InsideFit</a></li>
+      </ul></nav>
     </div>
-    <!--cz-only--><nav class="net" aria-label="HYROX trénink"><p class="net-h">HYROX Praha · Česko · online</p><ul><li><a href="/hyrox-trener-praha/"><b>HYROX trenér Praha</b><span>Osobní trénink a příprava na závod</span><i>hyrox-prague.eu</i></a></li><li><a href="/online-hyrox-trenink/"><b>Online HYROX trenér</b><span>Plán na míru, trénuješ kdekoliv</span><i>hyrox-prague.eu</i></a></li><li><a href="/hyrox-programy/"><b>HYROX programy</b><span>Tréninkový plán na závod</span><i>hyrox-prague.eu</i></a></li><li><a href="/blog/"><b>HYROX blog</b><span>Příprava, trénink, taktika</span><i>hyrox-prague.eu</i></a></li></ul></nav><!--/cz-only-->
-    <nav class="net" aria-label="Weby STR2G"><p class="net-h">Weby STR2G</p><ul><li><a href="https://str2g.com/cs/" target="_blank" rel="noopener"><b>STR2G Online</b><span>Online HYROX programy</span><i>str2g.com</i></a></li><li><a href="https://hyroxtrainingclub.cz/" target="_blank" rel="noopener"><b>HYROX Training Club</b><span>HYROX tréninky v Praze, Brně a Ostravě</span><i>hyroxtrainingclub.cz</i></a></li><li><a href="https://formfactorygames.cz/" target="_blank" rel="noopener"><b>Form Factory Games</b><span>Závod · 5. 12. 2026</span><i>formfactorygames.cz</i></a></li><li><a href="https://www.ladislavsuchanek.cz/" target="_blank" rel="noopener"><b>Ladislav Suchánek</b><span>Osobní trénink, výživa a masáže</span><i>ladislavsuchanek.cz</i></a></li></ul></nav>
-    <div class="legal"><span>© 2026 Ladislav Suchánek · STR2G HYROX · IČ 73562769</span><span><a href="https://www.instagram.com/hyroxprague/" target="_blank" rel="noopener">@hyroxprague</a> · <a href="https://www.ladislavsuchanek.cz/pravidla-ochrany-soukromi/" target="_blank" rel="noopener">Ochrana osobních údajů</a> · <a href="#" onclick="if(window.hpCookieSettings)hpCookieSettings();return false">Nastavení cookies</a></span></div>
+    <div class="legal"><span>© 2026 Ladislav Suchánek · STR2G HYROX · IČ 73562769</span><span><a href="https://www.ladislavsuchanek.cz/pravidla-ochrany-soukromi/" target="_blank" rel="noopener">Ochrana osobních údajů</a> · <a href="#" onclick="if(window.hpCookieSettings)hpCookieSettings();return false">Nastavení cookies</a></span></div>
   </div>
 </footer>
 

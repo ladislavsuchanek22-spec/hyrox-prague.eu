@@ -339,6 +339,10 @@ T = {
 "Jak dostanu tréninkový plán?": ("How do I get my training plan?", "Jak dostaję plan treningowy?", "Wie bekomme ich meinen Trainingsplan?"),
 
 # ---------- WEBY STR2G (patička) a odkaz na závod
+"HYROX trénink v Praze i online. Trénujeme, závodíme a vedeme kluby.": (
+  "HYROX training in Prague and online. We train, race and run clubs.",
+  "Trening HYROX w Pradze i online. Trenujemy, startujemy w zawodach i prowadzimy kluby.",
+  "HYROX-Training in Prag und online. Wir trainieren, starten bei Rennen und führen Clubs."),
 "Weby STR2G": ("STR2G websites", "Strony STR2G", "STR2G-Websites"),
 "HYROX tréninky v Praze, Brně a Ostravě": ("HYROX classes in Prague, Brno and Ostrava", "Treningi HYROX w Pradze, Brnie i Ostrawie", "HYROX-Training in Prag, Brno und Ostrava"),
 "Závod · 5. 12. 2026": ("Race · 5 Dec 2026", "Zawody · 5.12.2026", "Wettkampf · 5.12.2026"),
