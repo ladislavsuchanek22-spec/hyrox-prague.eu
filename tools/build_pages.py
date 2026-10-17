@@ -126,6 +126,7 @@ def head(title, desc, url, og_type, ld):
 <link rel="stylesheet" href="{FONTS}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 <style>{CSS}{EXTRA_CSS}</style>
+<script src="/js/tracking.js"></script>
 </head>
 <body>'''
 

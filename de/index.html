@@ -326,6 +326,7 @@ footer{border-top:1px solid var(--line);padding-block:40px}
 .net i{font-family:var(--mono);font-style:normal;font-size:12px;color:var(--muted)}
 .net a:hover b{color:var(--accent)}
 </style>
+<script src="/js/tracking.js"></script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -691,7 +692,7 @@ footer{border-top:1px solid var(--line);padding-block:40px}
     </div>
     
     <nav class="net" aria-label="STR2G-Websites"><p class="net-h">STR2G-Websites</p><ul><li><a href="https://str2g.com/de/" target="_blank" rel="noopener"><b>STR2G Online</b><span>Online-HYROX-Programme</span><i>str2g.com</i></a></li><li><a href="https://hyroxtrainingclub.cz/de/" target="_blank" rel="noopener"><b>HYROX Training Club</b><span>HYROX-Training in Prag, Brno und Ostrava</span><i>hyroxtrainingclub.cz</i></a></li><li><a href="https://formfactorygames.cz/de/" target="_blank" rel="noopener"><b>Form Factory Games</b><span>Wettkampf · 5.12.2026</span><i>formfactorygames.cz</i></a></li><li><a href="https://www.ladislavsuchanek.cz/" target="_blank" rel="noopener"><b>Ladislav Suchánek</b><span>Personal Training, Ernährung &amp; Massage</span><i>ladislavsuchanek.cz</i></a></li></ul></nav>
-    <div class="legal"><span>© 2026 Ladislav Suchánek · STR2G HYROX · Reg.-Nr. 73562769</span><span><a href="https://www.instagram.com/hyroxprague/" target="_blank" rel="noopener">@hyroxprague</a> · <a href="https://www.ladislavsuchanek.cz/pravidla-ochrany-soukromi/" target="_blank" rel="noopener">Datenschutz</a></span></div>
+    <div class="legal"><span>© 2026 Ladislav Suchánek · STR2G HYROX · Reg.-Nr. 73562769</span><span><a href="https://www.instagram.com/hyroxprague/" target="_blank" rel="noopener">@hyroxprague</a> · <a href="https://www.ladislavsuchanek.cz/pravidla-ochrany-soukromi/" target="_blank" rel="noopener">Datenschutz</a> · <a href="#" onclick="if(window.hpCookieSettings)hpCookieSettings();return false">Cookie-Einstellungen</a></span></div>
   </div>
 </footer>
 
@@ -747,7 +748,7 @@ footer{border-top:1px solid var(--line);padding-block:40px}
     var b=document.getElementById('f-submit'),err=document.getElementById('f-err');
     b.disabled=true;err.hidden=true;
     fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f)).toString()})
-      .then(function(r){if(!r.ok)throw 0;f.hidden=true;d.hidden=false;d.scrollIntoView({behavior:'smooth',block:'center'})})
+      .then(function(r){if(!r.ok)throw 0;if(window.hpTrackLead)hpTrackLead(f.querySelector('[name=plan]').value);f.hidden=true;d.hidden=false;d.scrollIntoView({behavior:'smooth',block:'center'})})
       .catch(function(){err.hidden=false;b.disabled=false});
   });
 })();

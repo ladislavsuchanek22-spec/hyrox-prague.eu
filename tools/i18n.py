@@ -313,6 +313,7 @@ T = {
   "© 2026 Ladislav Suchánek · STR2G HYROX · Nr rej. 73562769",
   "© 2026 Ladislav Suchánek · STR2G HYROX · Reg.-Nr. 73562769"),
 "Ochrana osobních údajů": ("Privacy", "Prywatność", "Datenschutz"),
+"Nastavení cookies": ("Cookie settings", "Ustawienia cookie", "Cookie-Einstellungen"),
 
 # ---------- JSON-LD (strukturovaná data)
 "HYROX trénink, příprava na HYROX závody, online HYROX programy a HYROX kluby v Praze, Brně a Ostravě.": (
