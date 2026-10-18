@@ -22,6 +22,7 @@ dict(
     ("h2", "Proč trénovat s HYROX trenérem"),
     ("p", "HYROX vypadá jednoduše. 8 km běhu a 8 stanic. Jenže většina lidí ztratí čas na úplně stejných místech: rozběhnou se moc rychle, na sledu spálí nohy a na wall ballech pak stojí. Nejde o to makat víc. Jde o to makat chytře."),
     ("p", "Na osobním tréninku řešíme přesně tohle. Techniku stanic, aby tě stála co nejmíň energie. Běh pod únavou. Přechody mezi stanicemi. A tempo, které vydržíš celý závod."),
+    ("p", "Jak vypadá dlouhodobá příprava na závod 1:1, najdeš na stránce <a href=\"https://www.ladislavsuchanek.cz/hyrox-coaching/\">HYROX trenér Praha – osobní coaching</a>."),
     ("h2", "Co na tréninku děláme"),
     ("ul", [
       "Vstupní test: běh, síla, stanice. Víme, kde jsi a co tě brzdí.",
