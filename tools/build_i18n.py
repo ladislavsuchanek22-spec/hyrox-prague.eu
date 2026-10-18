@@ -29,6 +29,7 @@ XLINKS = {
     "https://str2g.com/cs/": {"en": "https://str2g.com/", "pl": "https://str2g.com/pl/", "de": "https://str2g.com/de/"},
     "https://hyroxtrainingclub.cz/": {"en": "https://hyroxtrainingclub.cz/en/", "pl": "https://hyroxtrainingclub.cz/pl/", "de": "https://hyroxtrainingclub.cz/de/"},
     "https://formfactorygames.cz/": {"en": "https://formfactorygames.cz/en/", "pl": "https://formfactorygames.cz/pl/", "de": "https://formfactorygames.cz/de/"},
+    "https://riahrusovska.cz/": {"en": "https://riahrusovska.cz/en/", "pl": "https://riahrusovska.cz/en/", "de": "https://riahrusovska.cz/en/"},
 }
 ATTRS = ("alt", "placeholder", "aria-label", "data-plan", "content", "title")
 CZ_ONLY = re.compile(r"[áčďéěíňřšťúůýžÁČĎÉĚÍŇŘŠŤÚŮÝŽ]")  # znaky češtiny, které PL/EN/DE nemají (kromě ó, ś...)
