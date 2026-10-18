@@ -24,6 +24,8 @@ LANGS = {  # kód: (index v T, og:locale)
 }
 # Odkazy na ostatní weby STR2G: česká URL ve zdroji -> URL podle jazyka
 XLINKS = {
+    "https://str2g.com/cs/#basic": {"en": "https://str2g.com/#basic", "pl": "https://str2g.com/pl/#basic", "de": "https://str2g.com/de/#basic"},
+    "https://str2g.com/cs/#singles": {"en": "https://str2g.com/#singles", "pl": "https://str2g.com/pl/#singles", "de": "https://str2g.com/de/#singles"},
     "https://str2g.com/cs/": {"en": "https://str2g.com/", "pl": "https://str2g.com/pl/", "de": "https://str2g.com/de/"},
     "https://hyroxtrainingclub.cz/": {"en": "https://hyroxtrainingclub.cz/en/", "pl": "https://hyroxtrainingclub.cz/pl/", "de": "https://hyroxtrainingclub.cz/de/"},
     "https://formfactorygames.cz/": {"en": "https://formfactorygames.cz/en/", "pl": "https://formfactorygames.cz/pl/", "de": "https://formfactorygames.cz/de/"},

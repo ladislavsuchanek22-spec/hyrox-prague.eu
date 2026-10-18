@@ -55,7 +55,7 @@ dict(
   slug="online-hyrox-trenink",
   kind="service",
   title="Online HYROX trenér a coaching · plán na míru | Ladislav Suchánek",
-  desc="Online HYROX trenér. Individuální HYROX plán, závodní strategie a přímý kontakt s trenérem, ať jsi kdekoliv. Online HYROX programy od 650 Kč měsíčně.",
+  desc="Online HYROX trenér. Individuální HYROX plán, závodní strategie a přímý kontakt s trenérem, ať jsi kdekoliv. Online HYROX programy od 750 Kč měsíčně.",
   crumb="Online HYROX trénink",
   eyebrow="Online HYROX coach · trénuješ kdekoliv",
   h1=("Online", "HYROX trenér."),
@@ -72,7 +72,7 @@ dict(
     ]),
     ("h2", "Online HYROX programy a ceny"),
     ("cards", [
-      ("Basic", "650 Kč / měsíc", "HYROX plán na běh, sílu a kondici. Postupné navyšování zátěže. Pro začátečníky a mírně pokročilé.", "/#nabidka", "Vybrat Basic"),
+      ("Basic", "750 Kč / měsíc", "HYROX plán na běh, sílu a kondici. Postupné navyšování zátěže. Pro začátečníky a mírně pokročilé.", "/#nabidka", "Vybrat Basic"),
       ("Advanced", "3 500 Kč / měsíc", "Individuální plán, přímý kontakt s trenérem, 1× měsíčně konzultace, závodní strategie a pacing.", "/#prihlaska", "Poslat přihlášku"),
       ("Race Prep", "1 500 Kč", "8týdenní plán na konkrétní závod. Simulace a práce s tempem.", "/#nabidka", "Vybrat Race Prep"),
     ]),
@@ -112,7 +112,7 @@ dict(
     ]),
     ("h2", "Ceny HYROX programů"),
     ("cards", [
-      ("Basic", "650 Kč / měsíc", "Průběžný HYROX plán. Běh, síla, kondice, WhatsApp podpora.", "/#nabidka", "Koupit Basic"),
+      ("Basic", "750 Kč / měsíc", "Průběžný HYROX plán. Běh, síla, kondice, WhatsApp podpora.", "/#nabidka", "Koupit Basic"),
       ("Race Prep 8 týdnů", "1 500 Kč", "Plán na konkrétní závod. Simulace a práce s tempem.", "/#nabidka", "Koupit Race Prep"),
       ("Advanced", "3 500 Kč / měsíc", "Individuální plán, konzultace 1× měsíčně, závodní strategie.", "/#prihlaska", "Poslat přihlášku"),
     ]),
