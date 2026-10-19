@@ -54,15 +54,16 @@
   if (getConsent() === 'all') grant();
 
   // --- Události ---
-  // Klik na „Koupit“ = odkaz na checkout ladislavsuchanek.cz/p/…
+  // Klik na „Koupit“ = odkaz na program (str2g.com/#…) nebo položku e-shopu
   function trackBuy(href) {
-    var product = (href.match(/\/p\/([^\/?#]+)/) || [])[1] || 'unknown';
+    var product = (href.match(/#([a-z0-9-]+)$/) || href.match(/\/p\/([^\/?#]+)/) || [])[1] || 'unknown';
     gtag('event', 'begin_checkout', { items: [{ item_id: product }] });
     gtag('event', 'conversion', { send_to: T.adsId + '/' + T.adsBuyLabel });
     if (window.fbq) fbq('track', 'InitiateCheckout', { content_ids: [product] });
   }
   document.addEventListener('click', function (e) {
-    var a = e.target.closest && e.target.closest('a[href*="ladislavsuchanek.cz/p/"]');
+    // Koupit = odkaz na program na str2g.com nebo na položku v e-shopu ladislavsuchanek.cz
+    var a = e.target.closest && e.target.closest('a[href*="str2g.com/"][href*="#"], a[href*="ladislavsuchanek.cz/eshop/#"], a[href*="ladislavsuchanek.cz/p/"]');
     if (a) trackBuy(a.href);
   }, true);
 
