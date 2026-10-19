@@ -1,0 +1,53 @@
+# Po každém nasazení pošle změněné stránky do IndexNow (Bing, Seznam, Yandex…).
+# Bing z toho krmí ChatGPT a Copilot, takže se změny dostanou do AI vyhledávání rychleji.
+name: IndexNow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Počkat na Netlify deploy
+        run: sleep 120
+      - name: Odeslat změněné stránky
+        env:
+          HOST: hyrox-prague.eu
+          KEY: 5f3c9a1e7b2d4c8e9a0f6b3d2e1c7a94
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess, urllib.request
+          host, key = os.environ["HOST"], os.environ["KEY"]
+          try:
+              files = subprocess.check_output(["git", "diff", "--name-only", "HEAD~1", "HEAD"], text=True).split()
+          except subprocess.CalledProcessError:
+              files = []
+          urls = []
+          for f in files:
+              if not f.endswith(".html") or f.startswith(("_build/", "build/", "i18n/", "tools/", "kontrola/")) or f == "404.html":
+                  continue
+              if not os.path.exists(f):
+                  continue
+              p = f[:-len("index.html")] if f.endswith("index.html") else f[:-len(".html")]
+              urls.append(f"https://{host}/{p}")
+          # první nasazení (nový klíč) nebo ruční spuštění: pošli všechny stránky ze sitemapy
+          if f"{key}.txt" in files or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+              import re
+              urls += re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml", encoding="utf-8").read())
+          if os.path.exists("sitemap.xml") and "sitemap.xml" in files:
+              urls.append(f"https://{host}/sitemap.xml")
+          urls = sorted(set(urls))[:10000]
+          if not urls:
+              print("Žádné změněné stránky."); raise SystemExit
+          body = json.dumps({"host": host, "key": key, "keyLocation": f"https://{host}/{key}.txt", "urlList": urls}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})
+          try:
+              r = urllib.request.urlopen(req, timeout=30)
+              print("IndexNow:", r.status, len(urls), "URL")
+          except urllib.error.HTTPError as e:
+              print("IndexNow chyba:", e.code, e.read()[:300])
+          PY
