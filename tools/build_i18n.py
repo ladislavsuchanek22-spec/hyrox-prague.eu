@@ -2,7 +2,8 @@
 
 Použití (z kořene repozitáře):  python3 tools/build_i18n.py
 
-- Zdroj pravdy je index.html (čeština). Texty upravuj tam.
+- Zdroj pravdy je tools/index.cs.html (čeština). Texty upravuj tam.
+- Výstup: / = angličtina (hlavní verze), /cs/, /pl/, /de/.
 - Překlady jsou v tools/i18n.py (klíč = přesný český text).
 - Výstup: en/index.html, pl/index.html, de/index.html.
 Skript skončí chybou, pokud na stránce zůstane nepřeložený český text.
@@ -17,6 +18,8 @@ sys.path.insert(0, str(ROOT / "tools"))
 from i18n import T  # noqa: E402
 
 BASE = "https://hyrox-prague.eu/"
+# Angličtina je hlavní verze na kořeni webu (hyrox-prague.eu/), čeština je na /cs/.
+PATHS = {"en": "", "cs": "cs/", "pl": "pl/", "de": "de/"}
 LANGS = {  # kód: (index v T, og:locale)
     "en": (0, "en_US"),
     "pl": (1, "pl_PL"),
@@ -39,7 +42,8 @@ ATTRS = ("alt", "placeholder", "aria-label", "data-plan", "content", "title")
 CZ_ONLY = re.compile(r"[áčďéěíňřšťúůýžÁČĎÉĚÍŇŘŠŤÚŮÝŽ]")  # znaky češtiny, které PL/EN/DE nemají (kromě ó, ś...)
 # Texty, které se nepřekládají (jména, značky, čísla)
 KEEP = {"Ladislav Suchánek", "Ria Suchánek Hrušovská, MSc.", "Láďa &amp; Ria · Mixed Doubles · HYROX Maastricht",
-        "Ria Suchánek Hrušovská", "IG · @22segge_coach"}
+        "Ria Suchánek Hrušovská", "IG · @22segge_coach",
+        "Train with Ladislav at Form Factory Na Knížecí, Prague 5. Station technique, sled work, pacing or a full race simulation. 60 minutes, 1,300 CZK."}
 
 
 def tr(text, i):
@@ -93,10 +97,10 @@ def translate_jsonld(block, i):
 
 
 def localize_meta(html, code, locale):
-    url = BASE + code + "/"
+    url = BASE + PATHS[code]
     html = html.replace('<html lang="cs">', '<html lang="%s">' % code, 1)
-    html = html.replace('<link rel="canonical" href="%s">' % BASE, '<link rel="canonical" href="%s">' % url, 1)
-    html = html.replace('<meta property="og:url" content="%s">' % BASE, '<meta property="og:url" content="%s">' % url, 1)
+    html = html.replace('<link rel="canonical" href="%scs/">' % BASE, '<link rel="canonical" href="%s">' % url, 1)
+    html = html.replace('<meta property="og:url" content="%scs/">' % BASE, '<meta property="og:url" content="%s">' % url, 1)
     html = html.replace('<meta property="og:locale" content="cs_CZ">', '<meta property="og:locale" content="%s">' % locale, 1)
     html = html.replace('"inLanguage": "cs"', '"inLanguage": "%s"' % code, 1)
     html = html.replace('"url": "%s"' % BASE, '"url": "%s"' % url)  # WebSite/Business url -> jazyková verze
@@ -134,13 +138,32 @@ def check(html, code):
     return sorted(set(leftovers))
 
 
+SITEMAP_LANGS = ["en", "cs", "pl", "de"]
+
+
+def write_sitemaps():
+    from datetime import date
+    today = date.today().isoformat()
+    alts = "".join('\n    <xhtml:link rel="alternate" hreflang="%s" href="%s%s"/>' % (c, BASE, PATHS[c]) for c in SITEMAP_LANGS)
+    alts += '\n    <xhtml:link rel="alternate" hreflang="x-default" href="%s"/>' % BASE
+    urls = "".join('\n  <url><loc>%s%s</loc><lastmod>%s</lastmod>%s\n  </url>' % (BASE, PATHS[c], today, alts) for c in SITEMAP_LANGS)
+    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">%s\n</urlset>\n' % urls, encoding="utf-8")
+    (ROOT / "sitemap.txt").write_text("".join("%s%s\n" % (BASE, PATHS[c]) for c in SITEMAP_LANGS), encoding="utf-8")
+
+
 def main():
-    src = (ROOT / "index.html").read_text(encoding="utf-8")
+    full = (ROOT / "tools" / "index.cs.html").read_text(encoding="utf-8")
+    # čeština: bez anglických bloků, beze změn textu
+    cs = re.sub(r"<!--en-only-->.*?<!--/en-only-->", "", full, flags=re.S)
+    (ROOT / "cs").mkdir(exist_ok=True)
+    (ROOT / "cs" / "index.html").write_text(cs, encoding="utf-8")
+    print("[cs] zapsáno cs/index.html")
     # bloky jen pro češtinu (odkazy na české podstránky a blog)
-    src = re.sub(r"<!--cz-only-->.*?<!--/cz-only-->", "", src, flags=re.S)
+    src = re.sub(r"<!--cz-only-->.*?<!--/cz-only-->", "", full, flags=re.S)
     failed = False
     for code, (i, locale) in LANGS.items():
-        html = translate_html(src, i)
+        page = src if code == "en" else re.sub(r"<!--en-only-->.*?<!--/en-only-->", "", src, flags=re.S)
+        html = translate_html(page, i)
         html = localize_meta(html, code, locale)
         left = check(html, code)
         if left:
@@ -148,10 +171,12 @@ def main():
             print("[%s] NEPŘELOŽENO:" % code)
             for x in left:
                 print("   ", x)
-        out = ROOT / code / "index.html"
+        out = ROOT / PATHS[code] / "index.html"
         out.parent.mkdir(exist_ok=True)
         out.write_text(html, encoding="utf-8")
         print("[%s] zapsáno %s" % (code, out.relative_to(ROOT)))
+    write_sitemaps()
+    print("sitemap.xml + sitemap.txt")
     if failed:
         sys.exit(1)
 

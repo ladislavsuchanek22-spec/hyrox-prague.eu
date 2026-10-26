@@ -4,11 +4,11 @@
 T = {
 # ---------- HEAD / SEO
 "HYROX trénink Praha a online | Trenér Ladislav Suchánek · STR2G": (
-  "HYROX Training Prague & Online | Coach Ladislav Suchánek · STR2G",
+  "HYROX Prague: Coach, Training & Race Prep | STR2G",
   "Trening HYROX Praga i online | Trener Ladislav Suchánek · STR2G",
   "HYROX Training Prag & online | Coach Ladislav Suchánek · STR2G"),
 "HYROX trénink a příprava na závod s trenérem Ladislavem Suchánkem. Online HYROX programy od 750 Kč, osobní tréninky v Praze a HYROX kluby v Praze, Brně a Ostravě.": (
-  "HYROX training and race prep with coach Ladislav Suchánek. Online HYROX programs from 750 CZK, personal training in Prague and HYROX clubs in Prague, Brno and Ostrava.",
+  "HYROX coach in Prague. 1:1 sessions in English, HYROX classes at Form Factory and online programs for your next race. Visiting Prague? Train with us.",
   "Trening HYROX i przygotowanie do zawodów z trenerem Ladislavem Suchánkiem. Programy HYROX online od 750 CZK, treningi personalne w Pradze i kluby HYROX w Pradze, Brnie i Ostrawie.",
   "HYROX-Training und Rennvorbereitung mit Coach Ladislav Suchánek. Online-HYROX-Programme ab 750 CZK, Personal Training in Prag und HYROX Clubs in Prag, Brno und Ostrava."),
 "HYROX trénink Praha a online · STR2G HYROX": (

@@ -11,6 +11,50 @@
   status = 301
   force = true
 
+# Angličtina je od 26. 10. 2026 hlavní verze na kořeni webu, čeština je na /cs/
+[[redirects]]
+  from = "/en/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+# České podstránky a blog sloučené do ladislavsuchanek.cz a str2g.com (bez kanibalizace klíčových slov)
+[[redirects]]
+  from = "/hyrox-trener-praha/*"
+  to = "https://www.ladislavsuchanek.cz/hyrox-coaching/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/online-hyrox-trenink/*"
+  to = "https://str2g.com/cs/online-hyrox-trener/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hyrox-programy/*"
+  to = "https://str2g.com/cs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/jak-se-pripravit-na-prvni-hyrox/*"
+  to = "https://www.ladislavsuchanek.cz/l/hyrox-trenink-jak-vypada-efektivni-priprava-na-zavod/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/hyrox-tempo-a-taktika/*"
+  to = "https://www.ladislavsuchanek.cz/l/hyrox-beh-tempo-pacing/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://www.ladislavsuchanek.cz/blog/"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/img/*"
   [headers.values]

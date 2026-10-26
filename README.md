@@ -9,14 +9,11 @@ Web STR2G HYROX · Ladislav Suchánek. Statický web hostovaný na Netlify.
 
 Každý push do větve `main` se automaticky nasadí na hyrox-prague.eu.
 
-## Jazykové verze (CZ / EN / PL / DE)
+## Jazykové verze (EN / CZ / PL / DE)
 
-- Čeština je zdroj: `index.html`. Texty upravuj tam.
+- Od 26. 10. 2026 je hlavní verze anglická na kořeni webu (`/`). Čeština je na `/cs/`.
+- Zdroj textů je čeština: `tools/index.cs.html`. Texty upravuj tam.
 - Překlady jsou v `tools/i18n.py` (klíč = přesný český text).
-- Po každé změně spusť `python3 tools/build_i18n.py`. Vygeneruje `en/`, `pl/`, `de/` a ohlásí nepřeložené texty.
-
-## Podstránky a blog (jen česky)
-
-- Obsah: `tools/pages.py`, generátor: `tools/build_pages.py` (styly bere z `index.html`).
-- Po změně spusť `python3 tools/build_pages.py`. Přegeneruje podstránky, blog a `sitemap.xml`.
-- Bloky `<!--cz-only-->…<!--/cz-only-->` v `index.html` se do EN/PL/DE nepřenáší.
+- Po každé změně spusť `python3 tools/build_i18n.py`. Vygeneruje `index.html` (EN), `cs/`, `pl/`, `de/`, `sitemap.xml` a `sitemap.txt`.
+- Bloky `<!--cz-only-->…<!--/cz-only-->` jsou jen v češtině, `<!--en-only-->…<!--/en-only-->` jen v angličtině.
+- České podstránky a blog jsou přesměrované na ladislavsuchanek.cz a str2g.com (netlify.toml).

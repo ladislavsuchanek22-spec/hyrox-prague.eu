@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://hyrox-prague.eu/</loc><lastmod>2026-10-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/en/"/>
+  <url><loc>https://hyrox-prague.eu/</loc><lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://hyrox-prague.eu/pl/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://hyrox-prague.eu/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/"/>
   </url>
-  <url><loc>https://hyrox-prague.eu/en/</loc><lastmod>2026-10-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/en/"/>
+  <url><loc>https://hyrox-prague.eu/cs/</loc><lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://hyrox-prague.eu/pl/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://hyrox-prague.eu/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/"/>
   </url>
-  <url><loc>https://hyrox-prague.eu/pl/</loc><lastmod>2026-10-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/en/"/>
+  <url><loc>https://hyrox-prague.eu/pl/</loc><lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://hyrox-prague.eu/pl/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://hyrox-prague.eu/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/"/>
   </url>
-  <url><loc>https://hyrox-prague.eu/de/</loc><lastmod>2026-10-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/en/"/>
+  <url><loc>https://hyrox-prague.eu/de/</loc><lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hyrox-prague.eu/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://hyrox-prague.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://hyrox-prague.eu/pl/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://hyrox-prague.eu/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hyrox-prague.eu/"/>
   </url>
-  <url><loc>https://hyrox-prague.eu/hyrox-trener-praha/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://hyrox-prague.eu/online-hyrox-trenink/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://hyrox-prague.eu/hyrox-programy/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://hyrox-prague.eu/blog/jak-se-pripravit-na-prvni-hyrox/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://hyrox-prague.eu/blog/hyrox-tempo-a-taktika/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://hyrox-prague.eu/blog/</loc><lastmod>2026-10-16</lastmod></url>
 </urlset>
