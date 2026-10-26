@@ -12,11 +12,11 @@ T = {
   "Trening HYROX i przygotowanie do zawodów z trenerem Ladislavem Suchánkiem. Programy HYROX online od 750 CZK, treningi personalne w Pradze i kluby HYROX w Pradze, Brnie i Ostrawie.",
   "HYROX-Training und Rennvorbereitung mit Coach Ladislav Suchánek. Online-HYROX-Programme ab 750 CZK, Personal Training in Prag und HYROX Clubs in Prag, Brno und Ostrava."),
 "HYROX trénink Praha a online · STR2G HYROX": (
-  "HYROX training Prague & online · STR2G HYROX",
+  "HYROX Prague: coach, training & race prep · STR2G HYROX",
   "Trening HYROX Praga i online · STR2G HYROX",
   "HYROX Training Prag & online · STR2G HYROX"),
 "Postav motor. Závod vyhraj hlavou. HYROX programy, osobní tréninky v Praze a HYROX kluby v Praze, Brně a Ostravě.": (
-  "Build the engine. Win the race with your head. HYROX programs, personal training in Prague and HYROX clubs in Prague, Brno and Ostrava.",
+  "HYROX coach in Prague. 1:1 sessions in English, HYROX classes at Form Factory and online programs. Visiting Prague? Train with us.",
   "Zbuduj silnik. Wygraj wyścig głową. Programy HYROX, treningi personalne w Pradze i kluby HYROX w Pradze, Brnie i Ostrawie.",
   "Bau den Motor. Gewinn das Rennen im Kopf. HYROX-Programme, Personal Training in Prag und HYROX Clubs in Prag, Brno und Ostrava."),
 "Ladislav Suchánek na stanici Sandbag Lunges, HYROX Maastricht": (

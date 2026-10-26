@@ -27,6 +27,11 @@ LANGS = {  # kód: (index v T, og:locale)
 }
 # Odkazy na ostatní weby STR2G: česká URL ve zdroji -> URL podle jazyka
 XLINKS = {
+    "https://www.ladislavsuchanek.cz/eshop/#osobni-trenink": {"en": "https://www.ladislavsuchanek.cz/en/eshop/#osobni-trenink", "pl": "https://www.ladislavsuchanek.cz/pl/cennik/#osobni-trenink", "de": "https://www.ladislavsuchanek.cz/de/preise/#osobni-trenink"},
+    "https://www.ladislavsuchanek.cz/eshop/#balicek-10-treninku": {"en": "https://www.ladislavsuchanek.cz/en/eshop/#balicek-10-treninku", "pl": "https://www.ladislavsuchanek.cz/pl/cennik/#balicek-10-treninku", "de": "https://www.ladislavsuchanek.cz/de/preise/#balicek-10-treninku"},
+    "https://www.ladislavsuchanek.cz/eshop/#konzultace": {"en": "https://www.ladislavsuchanek.cz/en/eshop/#konzultace", "pl": "https://www.ladislavsuchanek.cz/pl/cennik/#konzultace", "de": "https://www.ladislavsuchanek.cz/de/preise/#konzultace"},
+    "https://www.ladislavsuchanek.cz/l/vyzivovy-coaching/": {"en": "https://www.ladislavsuchanek.cz/l/en-vyzivovy-coaching/", "pl": "https://www.ladislavsuchanek.cz/l/pl-vyzivovy-coaching/", "de": "https://www.ladislavsuchanek.cz/l/de-vyzivovy-coaching/"},
+    "https://www.ladislavsuchanek.cz/pravidla-ochrany-soukromi/": {"en": "https://www.ladislavsuchanek.cz/en/pravidla-ochrany-soukromi/", "pl": "https://www.ladislavsuchanek.cz/pl/polityka-prywatnosci/", "de": "https://www.ladislavsuchanek.cz/de/datenschutz/"},
     # stránky programů na str2g.com
     "https://str2g.com/cs/programy/hyrox-basic/": {"en": "https://str2g.com/programs/hyrox-basic/", "pl": "https://str2g.com/pl/programy/hyrox-basic/", "de": "https://str2g.com/de/programme/hyrox-basic/"},
     "https://str2g.com/cs/programy/8tydenni-hyrox-singles/": {"en": "https://str2g.com/programs/8-week-hyrox-singles/", "pl": "https://str2g.com/pl/programy/8-tygodni-hyrox-singles/", "de": "https://str2g.com/de/programme/8-wochen-hyrox-singles/"},
