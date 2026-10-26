@@ -12,7 +12,7 @@ BASE = "https://hyrox-prague.eu"
 
 GUIDES = {
     "train-hyrox-in-prague": dict(
-        draft=True,
+        draft=False,
         title="Train HYROX in Prague: Coaching, Classes & Gyms for Visitors | STR2G",
         desc="Visiting Prague and training for HYROX? Where to train, how to book HYROX classes at Form Factory and 1:1 sessions in English with a HYROX coach.",
         eyebrow="HYROX Prague guide",
@@ -42,7 +42,7 @@ GUIDES = {
         ],
     ),
     "hyrox-races-near-prague": dict(
-        draft=True,
+        draft=False,
         title="HYROX Races Near Prague 2026/27: Vienna, Katowice, Frankfurt & More | STR2G",
         desc="Living in or near Prague? These are the closest HYROX races in season 2026/27, with dates, plus tips for travelling to your race.",
         eyebrow="HYROX Prague guide",
