@@ -160,6 +160,7 @@ T = {
   "Ponad 15 lat treningu siłowego i kondycyjnego. Hokej, CrossFit, a dziś HYROX na poziomie zawodniczym. Buduję plany, które działają na treningu i na zawodach.",
   "Über 15 Jahre Kraft- und Konditionstraining. Eishockey, CrossFit und heute HYROX auf Wettkampfniveau. Ich baue Pläne, die im Training und am Renntag funktionieren."),
 "Mentální koučink pro sportovce": ("Mental coaching for athletes", "Coaching mentalny dla sportowców", "Mentalcoaching für Sportler"),
+"Láďa a Ria – všechny naše projekty": ("Láďa &amp; Ria – all our projects", "Láďa i Ria – wszystkie nasze projekty", "Láďa &amp; Ria – alle unsere Projekte"),
 "Mentální koučink s Riou → riahrusovska.cz": ("Mental coaching with Ria → riahrusovska.cz", "Coaching mentalny z Rią → riahrusovska.cz", "Mentalcoaching mit Ria → riahrusovska.cz"),
 "Sportovní masér": ("Sports massage therapist", "Masażysta sportowy", "Sportmasseur"),
 "Ria Suchánek Hrušovská, HYROX trenérka, v cíli HYROX Maastricht": (
