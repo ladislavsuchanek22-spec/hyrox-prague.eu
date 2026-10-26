@@ -76,6 +76,39 @@ GUIDES = {
             ("How early should I buy HYROX tickets?", "As soon as you choose a race. Open divisions on popular races sell out months ahead."),
         ],
     ),
+    "hyrox-hotel-gym-workouts": dict(
+        draft=True,
+        title="HYROX Hotel Gym Workouts: Keep Training While You Travel | STR2G",
+        desc="Travelling and no sleds or SkiErg? Four HYROX workouts you can do in a hotel gym with a treadmill and dumbbells, plus how to plan training on a trip.",
+        eyebrow="HYROX Prague guide",
+        h1="HYROX hotel gym workouts",
+        lead="Business trip, holiday, a weekend in Prague. Most hotel gyms have a treadmill, a few dumbbells and maybe a rower. That is enough to keep your HYROX fitness for a week or two.",
+        body="""
+<h2>What to keep, what to drop</h2>
+<p>On a short trip you won't build fitness, but you can keep it. Keep one hard engine session, one strength session and easy running. Drop the station-specific work you can't do without equipment. Sleds and SkiErg can wait a week.</p>
+<h2>Workout 1: Run + legs</h2>
+<p>5 rounds: 800 m on the treadmill at race pace, 20 dumbbell walking lunges, 15 goblet squats. Rest 1 minute between rounds. It trains running on tired legs, like the second half of a race.</p>
+<h2>Workout 2: Engine EMOM</h2>
+<p>24 minutes, every minute: 1) 15 cal row or 200 m run, 2) 12 dumbbell thrusters, 3) 10 burpees, 4) rest. Steady pace, the same output every round.</p>
+<h2>Workout 3: Strength</h2>
+<p>4 rounds: 10 dumbbell Romanian deadlifts, 10 split squats per leg, 12 one-arm rows per side, 30 s plank. Heavy enough that the last reps are hard.</p>
+<h2>Workout 4: Carry and grip</h2>
+<p>If the dumbbells are heavy enough: 6 × 40 m farmers carry with the heaviest pair you can hold, plus 3 dead hangs as long as you can if there is a bar.</p>
+<h2>No gym at all?</h2>
+<ul>
+<li>Easy runs: in Prague, the riverside paths along the Vltava are made for it.</li>
+<li>Bodyweight circuit: burpee broad jumps, walking lunges, air squats, push-ups.</li>
+<li>Or train properly: book a 1:1 session or a HYROX class in Prague, see <a href="/train-hyrox-in-prague/">Train HYROX in Prague</a>.</li>
+</ul>
+<p>All STR2G programs are in English and run in the Strivee app, so your plan travels with you.</p>
+<p><a class="btn" href="https://str2g.com/">See the programs</a> <a class="btn ghost" href="/train-hyrox-in-prague/">Train HYROX in Prague</a></p>
+""",
+        faq=[
+            ("Can I train for HYROX in a hotel gym?", "Yes, for a short trip. A treadmill and dumbbells are enough for running, lunges, thrusters and carries. Sleds and SkiErg can wait a week or two."),
+            ("How do I keep HYROX fitness while travelling?", "Keep one hard engine session, one strength session and easy runs each week. Drop volume, not consistency."),
+            ("Where can I train HYROX in Prague as a visitor?", "At HYROX Training Club classes at Form Factory, or 1:1 with HYROX coach Ladislav Suchánek at Form Factory Na Knížecí, in English."),
+        ],
+    ),
 }
 
 GUIDE_CSS = """
