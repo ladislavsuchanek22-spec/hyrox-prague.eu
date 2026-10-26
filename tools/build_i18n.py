@@ -146,14 +146,15 @@ def check(html, code):
 SITEMAP_LANGS = ["en", "cs", "pl", "de"]
 
 
-def write_sitemaps():
+def write_sitemaps(extra=()):
     from datetime import date
     today = date.today().isoformat()
     alts = "".join('\n    <xhtml:link rel="alternate" hreflang="%s" href="%s%s"/>' % (c, BASE, PATHS[c]) for c in SITEMAP_LANGS)
     alts += '\n    <xhtml:link rel="alternate" hreflang="x-default" href="%s"/>' % BASE
     urls = "".join('\n  <url><loc>%s%s</loc><lastmod>%s</lastmod>%s\n  </url>' % (BASE, PATHS[c], today, alts) for c in SITEMAP_LANGS)
+    urls += "".join('\n  <url><loc>%s</loc><lastmod>%s</lastmod></url>' % (u, today) for u in extra)
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">%s\n</urlset>\n' % urls, encoding="utf-8")
-    (ROOT / "sitemap.txt").write_text("".join("%s%s\n" % (BASE, PATHS[c]) for c in SITEMAP_LANGS), encoding="utf-8")
+    (ROOT / "sitemap.txt").write_text("".join("%s%s\n" % (BASE, PATHS[c]) for c in SITEMAP_LANGS) + "".join(u + "\n" for u in extra), encoding="utf-8")
 
 
 def main():
@@ -180,7 +181,8 @@ def main():
         out.parent.mkdir(exist_ok=True)
         out.write_text(html, encoding="utf-8")
         print("[%s] zapsáno %s" % (code, out.relative_to(ROOT)))
-    write_sitemaps()
+    import guides
+    write_sitemaps(guides.build(ROOT))
     print("sitemap.xml + sitemap.txt")
     if failed:
         sys.exit(1)
