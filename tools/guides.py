@@ -23,8 +23,8 @@ GUIDES = {
 <p>Train with Ladislav Suchánek, HYROX Performance Coach, at Form Factory Na Knížecí, Ostrovského 464/6, Prague 5 – Smíchov. One session can cover station technique (sleds, wall balls, burpee broad jumps), pacing for your next race or a part-race simulation. A 60-minute session costs 1,300 CZK.</p>
 <p><a class="btn" href="https://www.ladislavsuchanek.cz/en/services/hyrox-coaching/">Book a session</a></p>
 <h2>HYROX classes</h2>
-<p>The official HYROX Training Club runs classes at two Form Factory clubs in Prague: Na Knížecí (Prague 5) and Vinohradská 190 (Prague 3). Classes last 45 minutes and follow the HYROX365 programme: running, strength, stations and work under fatigue. Book in the Moje Form Factory app or on the Form Factory website. First-visit options are on <a href="https://www.formfactory.cz/en/" target="_blank" rel="noopener">formfactory.cz</a>.</p>
-<p><a class="btn ghost" href="https://hyroxtrainingclub.cz/en/">Clubs and timetable</a></p>
+<p>The official HYROX Training Club runs classes at two Form Factory clubs in Prague: Na Knížecí (Prague 5) and Vinohradská 190 (Prague 3). Classes last 45 to 60 minutes and follow the HYROX365 programme: running, strength, stations and work under fatigue. Book in the Moje Form Factory app or on the Form Factory website. First-visit options are on <a href="https://www.formfactory.cz/en/" target="_blank" rel="noopener">formfactory.cz</a>.</p>
+<p><a class="btn ghost" href="https://hyroxtrainingclub.cz/praha/#rozvrh">Prague class timetable</a></p>
 <h2>Training on your own</h2>
 <p>All STR2G programs are written in English and run in the Strivee app on your phone, so you can keep your plan wherever you are. From 750 CZK a month, or a fixed 8- and 12-week race prep.</p>
 <p><a class="btn ghost" href="https://str2g.com/">See the programs</a></p>
@@ -38,7 +38,7 @@ GUIDES = {
         faq=[
             ("Where can I train HYROX in Prague?", "At the official HYROX Training Club classes at Form Factory Na Knížecí (Prague 5) and Vinohradská (Prague 3), or 1:1 with HYROX coach Ladislav Suchánek at Form Factory Na Knížecí."),
             ("Is HYROX coaching in Prague available in English?", "Yes. 1:1 sessions with Ladislav Suchánek are available in English, and all STR2G online programs are written in English."),
-            ("How long is a HYROX class in Prague?", "HYROX classes at Form Factory last 45 minutes and are booked in the Moje Form Factory app or on the Form Factory website."),
+            ("How long is a HYROX class in Prague?", "HYROX classes at Form Factory last 45 to 60 minutes and are booked in the Moje Form Factory app or on the Form Factory website. The current timetable is on hyroxtrainingclub.cz/praha/."),
         ],
     ),
     "hyrox-races-near-prague": dict(
