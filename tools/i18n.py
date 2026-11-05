@@ -348,8 +348,8 @@ T = {
   "HYROX-Training in Prag und online. Wir trainieren, starten bei Rennen und führen Clubs."),
 "Weby STR2G": ("STR2G websites", "Strony STR2G", "STR2G-Websites"),
 "HYROX tréninky v Praze, Brně a Ostravě": ("HYROX classes in Prague, Brno and Ostrava", "Treningi HYROX w Pradze, Brnie i Ostrawie", "HYROX-Training in Prag, Brno und Ostrava"),
-"Závod · 5. 12. 2026": ("Race · 5 Dec 2026", "Zawody · 5.12.2026", "Wettkampf · 5.12.2026"),
+"Závod · 23. 1. 2027": ("Race · 23 Jan 2027", "Zawody · 23.1.2027", "Wettkampf · 23.1.2027"),
 "Osobní trénink, výživa a masáže": ("Personal training, nutrition &amp; massage", "Trening personalny, dieta i masaże", "Personal Training, Ernährung &amp; Massage"),
 "Nejbližší závod:": ("Next race:", "Najbliższe zawody:", "Nächster Wettkampf:"),
-"Form Factory Games, 5. 12. 2026, Praha": ("Form Factory Games, 5 Dec 2026, Prague", "Form Factory Games, 5.12.2026, Praga", "Form Factory Games, 5.12.2026, Prag"),
+"Form Factory Games, 23. 1. 2027, Praha": ("Form Factory Games, 23 Jan 2027, Prague", "Form Factory Games, 23.1.2027, Praga", "Form Factory Games, 23.1.2027, Prag"),
 }
