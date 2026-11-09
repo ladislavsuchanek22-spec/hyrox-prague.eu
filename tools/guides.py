@@ -43,11 +43,11 @@ GUIDES = {
     ),
     "hyrox-races-near-prague": dict(
         draft=False,
-        title="HYROX Races Near Prague 2026/27: Vienna, Katowice, Frankfurt & More | STR2G",
-        desc="Living in or near Prague? These are the closest HYROX races in season 2026/27, with dates, plus tips for travelling to your race.",
+        title="HYROX Prague 2026/27: Is There a Race? Closest HYROX Races | STR2G",
+        desc="Looking for HYROX Prague 2026 or 2027? There is no Prague race on the calendar yet. These are the closest HYROX races to Prague, with dates and travel tips.",
         eyebrow="HYROX Prague guide",
-        h1="HYROX races near Prague",
-        lead="There is no HYROX race in Prague on the 2026/27 calendar so far. The good news: several races are a car or train ride away. Here are the closest ones.",
+        h1="HYROX Prague 2026/27",
+        lead="Looking for HYROX Prague? There is no HYROX race in Prague on the 2026/27 calendar so far. The good news: several races are a car or train ride away. Here are the closest ones.",
         body="""
 <h2>Closest races in season 2026/27</h2>
 <table class="gtable"><thead><tr><th>Race</th><th>Dates</th><th>Country</th></tr></thead><tbody>
@@ -55,8 +55,10 @@ GUIDES = {
 <tr><td>HYROX Frankfurt</td><td>10–13 Dec 2026</td><td>Germany</td></tr>
 <tr><td>HYROX Vienna (Messe Wien, Hall A)</td><td>19–21 Feb 2027</td><td>Austria</td></tr>
 <tr><td>HYROX Katowice</td><td>19–21 Feb 2027</td><td>Poland</td></tr>
+<tr><td>HYROX Warsaw</td><td>7–11 Apr 2027</td><td>Poland</td></tr>
+<tr><td>HYROX Kraków</td><td>7–9 May 2027</td><td>Poland</td></tr>
 </tbody></table>
-<p>Dates as published on hyrox.com in October 2026. More spring 2027 races may still be announced, so check <a href="https://hyrox.com/find-my-race/" target="_blank" rel="noopener">Find My Race</a> before you plan.</p>
+<p>Dates as published by HYROX in November 2026. More 2027 races may still be announced, including a possible race in Prague, so check <a href="https://hyrox.com/find-my-race/" target="_blank" rel="noopener">Find My Race</a> before you plan.</p>
 <h2>Tickets sell out early</h2>
 <p>Popular races sell out in the Open divisions months ahead. When we checked HYROX Vienna in October 2026, Men's Open Singles was already sold out. Buy your ticket as soon as you pick a race.</p>
 <h2>Travelling to your race</h2>
@@ -71,7 +73,8 @@ GUIDES = {
 <p><a class="btn" href="https://str2g.com/hyrox-training-plan/">HYROX training plans</a> <a class="btn ghost" href="/train-hyrox-in-prague/">Train HYROX in Prague</a></p>
 """,
         faq=[
-            ("Is there a HYROX race in Prague?", "Not on the 2026/27 calendar so far. The closest races are in Poland, Germany and Austria, for example Vienna and Katowice in February 2027."),
+            ("Is there a HYROX race in Prague in 2026 or 2027?", "Not on the 2026/27 calendar so far. The closest races are in Poland, Germany and Austria: Vienna and Katowice in February 2027, Warsaw in April and Kraków in May 2027."),
+            ("When is HYROX Warsaw 2027?", "HYROX Warsaw takes place on 7–11 April 2027."),
             ("When is HYROX Vienna 2027?", "HYROX Vienna takes place on 19–21 February 2027 at Messe Wien, Hall A."),
             ("How early should I buy HYROX tickets?", "As soon as you choose a race. Open divisions on popular races sell out months ahead."),
         ],
