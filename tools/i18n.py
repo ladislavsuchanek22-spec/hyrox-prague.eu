@@ -353,4 +353,10 @@ T = {
 "Osobní trénink, výživa a masáže": ("Personal training, nutrition &amp; massage", "Trening personalny, dieta i masaże", "Personal Training, Ernährung &amp; Massage"),
 "Nejbližší závod:": ("Next race:", "Najbliższe zawody:", "Nächster Wettkampf:"),
 "Form Factory Games, 23. 1. 2027, Praha": ("Form Factory Games, 23 Jan 2027, Prague", "Form Factory Games, 23.1.2027, Praga", "Form Factory Games, 23.1.2027, Prag"),
+
+# ---------- TEST PŘIPRAVENOSTI (texty kvízu jsou v js/ready.js)
+"Test připravenosti na HYROX": ("HYROX readiness check", "Test gotowości do HYROX", "HYROX Readiness-Check"),
+"Jsi připravený": ("Are you", "Jesteś gotowy", "Bist du"),
+"na závod?": ("race ready?", "na zawody?", "rennbereit?"),
+"Zjisti, kde jsi, co tě brzdí nejvíc a s čím začít.": ("Find out where you stand, what's holding you back most and where to start.", "Sprawdź, gdzie jesteś, co Cię najbardziej ogranicza i od czego zacząć.", "Finde heraus, wo du stehst, was dich am meisten bremst und womit du anfängst."),
 }
