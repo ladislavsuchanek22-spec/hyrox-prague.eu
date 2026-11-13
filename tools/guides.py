@@ -80,7 +80,7 @@ GUIDES = {
         ],
     ),
     "hyrox-hotel-gym-workouts": dict(
-        draft=True,
+        draft=False,
         title="HYROX Hotel Gym Workouts: Keep Training While You Travel | STR2G",
         desc="Travelling and no sleds or SkiErg? Four HYROX workouts you can do in a hotel gym with a treadmill and dumbbells, plus how to plan training on a trip.",
         eyebrow="HYROX Prague guide",
