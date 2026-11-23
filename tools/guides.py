@@ -26,7 +26,7 @@ GUIDES = {
 <p>The official HYROX Training Club runs classes at two Form Factory clubs in Prague: Na Knížecí (Prague 5) and Vinohradská 190 (Prague 3). Classes last 45 to 60 minutes and follow the HYROX365 programme: running, strength, stations and work under fatigue. Book in the Moje Form Factory app or on the Form Factory website. First-visit options are on <a href="https://www.formfactory.cz/en/" target="_blank" rel="noopener">formfactory.cz</a>.</p>
 <p><a class="btn ghost" href="https://hyroxtrainingclub.cz/praha/#rozvrh">Prague class timetable</a></p>
 <h2>Training on your own</h2>
-<p>All STR2G programs are written in English and run in the Strivee app on your phone, so you can keep your plan wherever you are. From 750 CZK a month, or a fixed 8- and 12-week race prep.</p>
+<p>All STR2G programs are written in English and run in the Strivee app on your phone, so you can keep your plan wherever you are. From 750 CZK a month, or a fixed 8- and 12-week race prep. See how a <a href="https://str2g.com/hyrox-training-plan/">HYROX training plan</a> is built week by week.</p>
 <p><a class="btn ghost" href="https://str2g.com/">See the programs</a></p>
 <h2>Tips for training while travelling</h2>
 <ul>
