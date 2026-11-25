@@ -7,18 +7,18 @@ T = {
   "HYROX Prague: Coach, Training & Race Prep | STR2G",
   "Trening HYROX Praga i online | Trener Ladislav Suchánek · STR2G",
   "HYROX Training Prag & online | Coach Ladislav Suchánek · STR2G"),
-"HYROX trénink a příprava na závod s trenérem Ladislavem Suchánkem. Online HYROX programy od 750 Kč, osobní tréninky v Praze a HYROX kluby v Praze, Brně a Ostravě.": (
+"HYROX trénink a příprava na závod s trenérem Ladislavem Suchánkem. Online HYROX programy od 750 Kč, osobní tréninky v Praze a skupinové HYROX lekce ve Form Factory v Praze, Brně a Ostravě.": (
   "HYROX coach in Prague. 1:1 sessions in English, HYROX classes at Form Factory and online programs for your next race. Visiting Prague? Train with us.",
-  "Trening HYROX i przygotowanie do zawodów z trenerem Ladislavem Suchánkiem. Programy HYROX online od 750 CZK, treningi personalne w Pradze i kluby HYROX w Pradze, Brnie i Ostrawie.",
-  "HYROX-Training und Rennvorbereitung mit Coach Ladislav Suchánek. Online-HYROX-Programme ab 750 CZK, Personal Training in Prag und HYROX Clubs in Prag, Brno und Ostrava."),
+  "Trening HYROX i przygotowanie do zawodów z trenerem Ladislavem Suchánkiem. Programy HYROX online od 750 CZK, treningi personalne w Pradze i grupowe zajęcia HYROX w Form Factory w Pradze, Brnie i Ostrawie.",
+  "HYROX-Training und Rennvorbereitung mit Coach Ladislav Suchánek. Online-HYROX-Programme ab 750 CZK, Personal Training in Prag und HYROX-Gruppenkurse bei Form Factory in Prag, Brno und Ostrava."),
 "HYROX trénink Praha a online · STR2G HYROX": (
   "HYROX Prague: coach, training & race prep · STR2G HYROX",
   "Trening HYROX Praga i online · STR2G HYROX",
   "HYROX Training Prag & online · STR2G HYROX"),
-"Postav motor. Závod vyhraj hlavou. HYROX programy, osobní tréninky v Praze a HYROX kluby v Praze, Brně a Ostravě.": (
+"Postav motor. Závod vyhraj hlavou. HYROX programy, osobní tréninky v Praze a skupinové HYROX lekce ve Form Factory v Praze, Brně a Ostravě.": (
   "HYROX coach in Prague. 1:1 sessions in English, HYROX classes at Form Factory and online programs. Visiting Prague? Train with us.",
-  "Zbuduj silnik. Wygraj wyścig głową. Programy HYROX, treningi personalne w Pradze i kluby HYROX w Pradze, Brnie i Ostrawie.",
-  "Bau den Motor. Gewinn das Rennen im Kopf. HYROX-Programme, Personal Training in Prag und HYROX Clubs in Prag, Brno und Ostrava."),
+  "Zbuduj silnik. Wygraj wyścig głową. Programy HYROX, treningi personalne w Pradze i grupowe zajęcia HYROX w Form Factory w Pradze, Brnie i Ostrawie.",
+  "Bau den Motor. Gewinn das Rennen im Kopf. HYROX-Programme, Personal Training in Prag und HYROX-Gruppenkurse bei Form Factory in Prag, Brno und Ostrava."),
 "Ladislav Suchánek na stanici Sandbag Lunges, HYROX Maastricht": (
   "Ladislav Suchánek at the Sandbag Lunges station, HYROX Maastricht",
   "Ladislav Suchánek na stacji Sandbag Lunges, HYROX Maastricht",
@@ -320,10 +320,10 @@ T = {
 "Nastavení cookies": ("Cookie settings", "Ustawienia cookie", "Cookie-Einstellungen"),
 
 # ---------- JSON-LD (strukturovaná data)
-"HYROX trénink, příprava na HYROX závody, online HYROX programy a HYROX kluby v Praze, Brně a Ostravě.": (
-  "HYROX training, race preparation, online HYROX programs and HYROX clubs in Prague, Brno and Ostrava.",
-  "Trening HYROX, przygotowanie do zawodów HYROX, programy HYROX online i kluby HYROX w Pradze, Brnie i Ostrawie.",
-  "HYROX-Training, Vorbereitung auf HYROX-Rennen, Online-HYROX-Programme und HYROX Clubs in Prag, Brno und Ostrava."),
+"HYROX trénink, příprava na HYROX závody, online HYROX programy a skupinové HYROX lekce ve Form Factory v Praze, Brně a Ostravě.": (
+  "HYROX training, race preparation, online HYROX programs and group HYROX classes at Form Factory in Prague, Brno and Ostrava.",
+  "Trening HYROX, przygotowanie do zawodów HYROX, programy HYROX online i grupowe zajęcia HYROX w Form Factory w Pradze, Brnie i Ostrawie.",
+  "HYROX-Training, Vorbereitung auf HYROX-Rennen, Online-HYROX-Programme und HYROX-Gruppenkurse bei Form Factory in Prag, Brno und Ostrava."),
 "750–11000 Kč": ("750–11,000 CZK", "750–11 000 CZK", "750–11.000 CZK"),
 "Česká republika": ("Czech Republic", "Czechy", "Tschechien"),
 "HYROX programy a služby": ("HYROX programs and services", "Programy i usługi HYROX", "HYROX-Programme und Leistungen"),
