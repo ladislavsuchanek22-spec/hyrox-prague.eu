@@ -38,6 +38,7 @@ XLINKS = {
     "https://www.ladislavsuchanek.cz/": {"en": "https://www.ladislavsuchanek.cz/en/", "pl": "https://www.ladislavsuchanek.cz/pl/", "de": "https://www.ladislavsuchanek.cz/de/"},
     "https://www.ladislavsuchanek.cz/eshop/#online-coaching": {"en": "https://www.ladislavsuchanek.cz/en/eshop/#online-coaching", "pl": "https://www.ladislavsuchanek.cz/pl/cennik/#online-coaching", "de": "https://www.ladislavsuchanek.cz/de/preise/#online-coaching"},
     "https://str2g.com/cs/": {"en": "https://str2g.com/", "pl": "https://str2g.com/pl/", "de": "https://str2g.com/de/"},
+    "https://str2g.com/cs/pruvodce-stanicemi/": {"en": "https://str2g.com/station-guide/", "pl": "https://str2g.com/station-guide/", "de": "https://str2g.com/station-guide/"},
     "https://hyroxtrainingclub.cz/": {"en": "https://hyroxtrainingclub.cz/en/", "pl": "https://hyroxtrainingclub.cz/pl/", "de": "https://hyroxtrainingclub.cz/de/"},
     "https://formfactorygames.cz/": {"en": "https://formfactorygames.cz/en/", "pl": "https://formfactorygames.cz/pl/", "de": "https://formfactorygames.cz/de/"},
     "https://riahrusovska.cz/": {"en": "https://riahrusovska.cz/en/", "pl": "https://riahrusovska.cz/en/", "de": "https://riahrusovska.cz/en/"},
