@@ -70,7 +70,7 @@ T = {
 "Vybrat program": ("Choose a program", "Wybierz program", "Programm wählen"),
 "Napsat mi": ("Message me", "Napisz do mnie", "Schreib mir"),
 "Let praxe": ("Years coaching", "Lat doświadczenia", "Jahre Erfahrung"),
-"Kluby STR2G": ("STR2G clubs", "Kluby STR2G", "STR2G Clubs"),
+"Lekce ve Form Factory": ("Classes at Form Factory", "Zajęcia w Form Factory", "Kurse bei Form Factory"),
 "Můj čas, Berlín": ("My time, Berlin", "Mój czas, Berlin", "Meine Zeit, Berlin"),
 "Trénuju": ("I coach", "Trenuję", "Ich coache"),
 "Online + Praha": ("Online + Prague", "Online + Praga", "Online + Prag"),
@@ -147,10 +147,10 @@ T = {
 "HYROX trenéři": ("HYROX coaches", "Trenerzy HYROX", "HYROX Coaches"),
 "Kdo tě": ("Who'll", "Kto cię", "Wer dich"),
 "povede.": ("coach you.", "poprowadzi.", "coacht."),
-"Trénujeme, závodíme a vedeme kluby. Co učíme, máme vyzkoušené na sobě.": (
-  "We train, we race and we run clubs. Everything we teach, we've tested on ourselves.",
-  "Trenujemy, startujemy i prowadzimy kluby. To, czego uczymy, sprawdziliśmy na sobie.",
-  "Wir trainieren, starten selbst und leiten Clubs. Was wir lehren, haben wir an uns selbst getestet."),
+"Trénujeme, závodíme a vedeme skupinové lekce v klubech Form Factory. Co učíme, máme vyzkoušené na sobě.": (
+  "We train, we race and we coach group classes at Form Factory clubs. Everything we teach, we've tested on ourselves.",
+  "Trenujemy, startujemy i prowadzimy zajęcia grupowe w klubach Form Factory. To, czego uczymy, sprawdziliśmy na sobie.",
+  "Wir trainieren, starten selbst und leiten Gruppenkurse in den Form Factory Clubs. Was wir lehren, haben wir an uns selbst getestet."),
 "Ladislav Suchánek, HYROX trenér z Prahy, v cíli HYROX Maastricht": (
   "Ladislav Suchánek, HYROX coach from Prague, at the HYROX Maastricht finish",
   "Ladislav Suchánek, trener HYROX z Pragi, na mecie HYROX Maastricht",
@@ -168,10 +168,10 @@ T = {
   "Ria Suchánek Hrušovská, HYROX coach, at the HYROX Maastricht finish",
   "Ria Suchánek Hrušovská, trenerka HYROX, na mecie HYROX Maastricht",
   "Ria Suchánek Hrušovská, HYROX Coach, im Ziel bei HYROX Maastricht"),
-"Spolu vedeme tréninky, programy i kluby STR2G a spolu taky závodíme. Ria spojuje HYROX trénink s mentálním koučinkem, výživou a stabilizací. Hlídá, aby výkon držela hlava i tělo.": (
-  "We run the training, programs and STR2G clubs together, and we race together too. Ria combines HYROX training with mental coaching, nutrition and stabilization work. She makes sure both head and body hold up.",
-  "Razem prowadzimy treningi, programy i kluby STR2G i razem startujemy. Ria łączy trening HYROX z coachingiem mentalnym, odżywianiem i stabilizacją. Dba o to, żeby wytrzymała i głowa, i ciało.",
-  "Wir leiten Trainings, Programme und die STR2G Clubs gemeinsam und starten auch zusammen. Ria verbindet HYROX-Training mit Mentalcoaching, Ernährung und Stabilisation. Sie sorgt dafür, dass Kopf und Körper durchhalten."),
+"Spolu vedeme tréninky, programy i skupinové lekce ve Form Factory a spolu taky závodíme. Ria spojuje HYROX trénink s mentálním koučinkem, výživou a stabilizací. Hlídá, aby výkon držela hlava i tělo.": (
+  "We run the training, programs and group classes at Form Factory together, and we race together too. Ria combines HYROX training with mental coaching, nutrition and stabilization work. She makes sure both head and body hold up.",
+  "Razem prowadzimy treningi, programy i zajęcia grupowe w Form Factory i razem startujemy. Ria łączy trening HYROX z coachingiem mentalnym, odżywianiem i stabilizacją. Dba o to, żeby wytrzymała i głowa, i ciało.",
+  "Wir leiten Trainings, Programme und Gruppenkurse bei Form Factory gemeinsam und starten auch zusammen. Ria verbindet HYROX-Training mit Mentalcoaching, Ernährung und Stabilisation. Sie sorgt dafür, dass Kopf und Körper durchhalten."),
 "Trenér z praxe": ("A coach who races", "Trener z praktyki", "Coach aus der Praxis"),
 "Sám závodím. Vím, jak bolí wall bally v osmém kole.": ("I race myself. I know how wall balls feel at station eight.", "Sam startuję. Wiem, jak bolą wall balle na ósmej stacji.", "Ich starte selbst. Ich weiß, wie Wall Balls an Station acht wehtun."),
 "Plán podle tebe": ("A plan built for you", "Plan pod ciebie", "Ein Plan für dich"),
@@ -343,10 +343,10 @@ T = {
 "Jak dostanu tréninkový plán?": ("How do I get my training plan?", "Jak dostaję plan treningowy?", "Wie bekomme ich meinen Trainingsplan?"),
 
 # ---------- WEBY STR2G (patička) a odkaz na závod
-"HYROX trénink v Praze i online. Trénujeme, závodíme a vedeme kluby.": (
-  "HYROX training in Prague and online. We train, race and run clubs.",
-  "Trening HYROX w Pradze i online. Trenujemy, startujemy w zawodach i prowadzimy kluby.",
-  "HYROX-Training in Prag und online. Wir trainieren, starten bei Rennen und führen Clubs."),
+"HYROX trénink v Praze i online. Trénujeme, závodíme a vedeme skupinové lekce v klubech Form Factory.": (
+  "HYROX training in Prague and online. We train, race and coach group classes at Form Factory clubs.",
+  "Trening HYROX w Pradze i online. Trenujemy, startujemy w zawodach i prowadzimy zajęcia grupowe w klubach Form Factory.",
+  "HYROX-Training in Prag und online. Wir trainieren, starten bei Rennen und leiten Gruppenkurse in den Form Factory Clubs."),
 "Weby STR2G": ("STR2G websites", "Strony STR2G", "STR2G-Websites"),
 "HYROX tréninky v Praze, Brně a Ostravě": ("HYROX classes in Prague, Brno and Ostrava", "Treningi HYROX w Pradze, Brnie i Ostrawie", "HYROX-Training in Prag, Brno und Ostrava"),
 "Závod · 23. 1. 2027": ("Race · 23 Jan 2027", "Zawody · 23.1.2027", "Wettkampf · 23.1.2027"),
