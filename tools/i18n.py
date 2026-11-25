@@ -2,6 +2,16 @@
 # Po změně textu v index.html uprav i klíč tady a spusť: python3 tools/build_i18n.py
 
 T = {
+# ---------- PRŮVODCE STANICEMI
+"PDF zdarma · 64 stran": ("Free PDF · 64 pages", "Darmowy PDF · 64 strony", "Gratis-PDF · 64 Seiten"),
+"Průvodce všemi": ("The guide to all", "Przewodnik po wszystkich", "Der Guide zu allen"),
+"8 HYROX stanicemi.": ("8 HYROX stations.", "8 stacjach HYROX.", "8 HYROX-Stationen."),
+"Technika, nejčastější chyby, tempo na závodě a 12 tréninků ke každé stanici. Od SkiErgu po Wall Balls.": (
+  "Technique, common mistakes, race pacing and 12 workouts for every station. From SkiErg to Wall Balls.",
+  "Technika, najczęstsze błędy, tempo i 12 treningów do każdej stacji. Od SkiErga po Wall Balls. Po angielsku.",
+  "Technik, häufige Fehler, Pacing und 12 Workouts für jede Station. Vom SkiErg bis zu den Wall Balls. Auf Englisch."),
+"Chci průvodce zdarma": ("Get the free guide", "Pobierz przewodnik", "Gratis-Guide holen"),
+
 # ---------- HEAD / SEO
 "HYROX trénink Praha a online | Trenér Ladislav Suchánek · STR2G": (
   "HYROX Prague: Coach, Training & Race Prep | STR2G",
